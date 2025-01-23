@@ -14,3 +14,12 @@ Samuti loenda, mitu sellist kombinatsiooni leiti. Tulemus:
 20 - 20 - 20
 Kokku leiti 8000 kombinatsiooni.
 """
+
+counter = 0
+
+for z in range(1, 21):
+    for y in range(1, 21):
+        for x in range(1, 21):
+            print(f"{z} - {y} - {x}")
+            counter += 1
+print(f"Kokku leiti {counter} kombinatsiooni")
